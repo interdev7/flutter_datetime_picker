@@ -37,7 +37,6 @@ you can choose date / time / date&time in multiple languages:
 - Vietnamese(vi)
 - Khmer(kh)
 
-
 and you can also custom your own picker content
 
 | Date picker          | Time picker          | Date Time picker                 |
@@ -50,7 +49,6 @@ International:
 | -------------------------------- | -------------------------------- | ------------------------------ | -------------------------------- |
 | ![](screen_datetime_chinese.png) | ![](screen_datetime_english.png) | ![](screen_datetime_dutch.png) | ![](screen_datetime_russian.png) |
 
-
 ## Demo App
 
 ![main page](main_page.png)
@@ -60,7 +58,7 @@ International:
 ```
 TextButton(
     onPressed: () {
-        DatePicker.showDatePicker(context,
+        DateAndTimePicker.showDatePicker(context,
                               showTitleActions: true,
                               minTime: DateTime(2018, 3, 5),
                               maxTime: DateTime(2019, 6, 7), onChanged: (date) {
@@ -146,7 +144,6 @@ class CustomPicker extends CommonPickerModel {
   }
 }
 ```
-
 
 ## Getting Started
 
